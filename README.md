@@ -64,3 +64,21 @@ K = 10, but our code works for any value of K.
 
 Implementation of feedforward propagation and the backpropagation algorithm for neural networks and use it to predict handwritten digits.
 
+## K-means Clustering
+
+The K-means algorithm is a method to automatically cluster similar data
+examples together. Concretely, you are given a training set {x<sup>(1)</sup>,...,x<sup>(m)</sup>}
+(where x<sup>(i)</sup> ∈ **R**<sup>n</sup>), and want to group the data into a few cohesive “clusters”.
+The intuition behind K-means is an iterative procedure that starts by guessing the initial centroids,
+and then refines this guess by repeatedly assigning examples to their closest centroids and then recomputing
+the centroids based on the assignments.
+<br /> In this part, we implement the K-means algorithm and use it for image compression. We first start on
+an example 2D dataset that will help us gain an intuition of how the K-means algorithm works. After
+that, we use the K-means algorithm for image compression by reducing the number of colors that occur
+in an image to only those that are most common in that image.
+
+## Principal Component Analysis (PCA)
+
+In this part, we use principal component analysis (PCA) to perform dimensionality reduction. We first
+experiment with an example 2D dataset to get intuition on how PCA works, and then use it on a bigger
+dataset of 5000 face image dataset.
