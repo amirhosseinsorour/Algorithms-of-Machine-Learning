@@ -1,5 +1,5 @@
 # Algorithms-of-Machine-Learning
-Implementation of some useful algorithms of machine learning using Octave programming language, an open-source alternative to MATLAB.
+Implementation of some machine learning algorithms using Octave programming language, an open-source alternative to MATLAB.
 
 ## Linear Regression
 
