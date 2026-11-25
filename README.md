@@ -53,7 +53,7 @@ rejected. To help you make the decision, you have a dataset of test results
 on past microchips, from which you can build a logistic regression model.
 
 - ***One-vs-all Classification:***
-<br /> In this part, We extend our previous implemention of logistic regression
+<br /> In this part, We extend our previous implementation of logistic regression
 and apply it to one-vs-all classification and use it to recognize handwritten
 digits (from 0 to 9).
 We implement one-vs-all classification by training multiple regularized logistic
